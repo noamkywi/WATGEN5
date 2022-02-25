@@ -1,24 +1,24 @@
 # Contents:
-1. License
-2. Introduction
-3. Requirements
-4. Modes/Folder Structure
-5. Inputs/Parameters
-6. Running
-7. Outputs
-8. Demos
+0. License
+1. Introduction
+2. Requirements
+3. Modes/Folder Structure
+4. Inputs/Parameters
+5. Running
+6. Outputs
+7. Demos
 
 
-1) License-------------------------------------------
+0. License-------------------------------------------
 
 This software is free for academic use. Users interested in commercial applications should contact Ian Haworth (ihaworth@usc.edu).
 
-2) Introduction--------------------------------------
+1. Introduction--------------------------------------
 
 The Solvate program is used to predict the positions of waters in emtpy proteins and at protein-ligand interfaces, and to calculate water displacement upon ligand binding. The program takes 3D coordinate files (e.g. .pdb) as inputs, as well a set of parameters, and produces solvated PDB files as well as reports in .txt and .csv files. The program can run in one of 3 modes, as described below, depending upon the nature of the input structures. The current folder structure contains all dependencies except Java and is setup to run out of the box. The program runs through a Graphical User Interface (GUI), accessed through the "Solvate.exe" file. It is advised to not change the folder structure provided.
 
 
-2) Requirements--------------------------------------
+2. Requirements--------------------------------------
 
 The folder structure provided contains all executables and support files necessary to run Solvate and its subroutines, with the exception of Java. Java must be installed on the user's computer and added to PATH for Solvate to run properly. All other necessary files are included in the 'common' and 'exe' directories. DO NOT REMOVE OR EDIT THE FILES IN THESE DIRECTORIES--it will prevent the program from running properly. If hydrogens are to be added to the structures (discussed below), Open Babel is required. OpenBabel-2.3.2 is included in the provided folder structure, and will run properly from that location. Please ensure that your use complies with the licensing terms available at: http://openbabel.org/wiki/Main_Page
 
