@@ -9,7 +9,7 @@
 7. Demos
 
 
-0. License-------------------------------------------
+0) License-------------------------------------------
 
 This software is free for academic use. Users interested in commercial applications should contact Ian Haworth (ihaworth@usc.edu).
 
